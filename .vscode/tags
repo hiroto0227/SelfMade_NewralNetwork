@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/092117f/
+Data	../model.py	/^class Data():$/;"	kind:class	line:4
+NeuralNetwork	../model.py	/^class NeuralNetwork(data):$/;"	kind:class	line:47
+__init__	../model.py	/^    def __init__(self):$/;"	kind:member	line:15
+createModel	../model.py	/^    def createModel(self, data):$/;"	kind:member	line:49
+data	../model.py	/^    data = Data()$/;"	kind:variable	line:88
+loadTrainData	../model.py	/^    def loadTrainData(self):$/;"	kind:member	line:29
+loadTrainLabel	../model.py	/^    def loadTrainLabel(self):$/;"	kind:member	line:38
+model	../model.py	/^    model = NeuralNetwork(data)/;"	kind:variable	line:89
+model.py	../model.py	1;"	kind:file	line:1
+np	../model.py	/^import numpy as np$/;"	kind:namespace	line:1
+train	../model.py	/^    def train(image, label):$/;"	kind:member	line:81
